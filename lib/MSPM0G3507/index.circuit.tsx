@@ -267,10 +267,6 @@ export default (props: SubcircuitProps) => (
       }}
     />
     <voltageprobe name="OPA0_OUT" connectsTo="U1.OPA0_OUT" />
-    <analogsimulation
-      duration="1ms"
-      timePerStep="10us"
-      spiceEngine="ngspice"
-    />
+    <analogsimulation duration="1ms" timePerStep="10us" spiceEngine="ngspice" />
   </subcircuit>
 );
