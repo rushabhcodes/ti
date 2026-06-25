@@ -18,9 +18,9 @@ export const TPS63802DLAR = (props: ChipProps<typeof pinLabels>) => {
   return (
     <chip
       pinLabels={pinLabels}
-      supplierPartNumbers={{
-        jlcpcb: ["C2845237"],
-      }}
+      // supplierPartNumbers={{
+      //   jlcpcb: ["C2845237"],
+      // }}
       manufacturerPartNumber="TPS63802DLAR"
       spiceModel={
         <spicemodel
